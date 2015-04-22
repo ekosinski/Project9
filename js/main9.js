@@ -3,10 +3,10 @@ var GameState = function(game) {
 
 // Load images and sounds
 GameState.prototype.preload = function() {
-    this.game.load.image('bullet', '/Asset/bullet.png');
-    this.game.load.image('ground', '/Asset/ground.jpg');
-    this.game.load.spritesheet('explosion', '/Asset/explosion.png', 128, 128);
-    this.game.load.image('pig', '/Asset/pig.png');
+    this.game.load.image('bullet', 'Asset/bullet.png');
+    this.game.load.image('ground', 'Asset/ground.jpg');
+    this.game.load.spritesheet('explosion', 'Asset/explosion.png', 128, 128);
+    this.game.load.image('pig', 'Asset/pig.png');
 };
 
 // Setup the example
